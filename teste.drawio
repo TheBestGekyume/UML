@@ -4,8 +4,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cWQXr7FZmU8vGPkgJfpn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="vh6wfTyL9krGOzLQRLEe-1" value="Biblioteca" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="220" height="210" as="geometry">
+            <mxRectangle x="330" y="140" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vh6wfTyL9krGOzLQRLEe-2" value="&lt;div&gt;+ titulo: string&lt;/div&gt;&lt;div&gt;+ autor: string&lt;/div&gt;&lt;div&gt;+ categoria: string&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ numDePáginas: number&lt;/div&gt;&lt;div&gt;+ disponivel: boolean&lt;/div&gt;&lt;div&gt;+ ativo: boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vh6wfTyL9krGOzLQRLEe-1">
+          <mxGeometry y="26" width="220" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="vh6wfTyL9krGOzLQRLEe-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vh6wfTyL9krGOzLQRLEe-1">
+          <mxGeometry y="120" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vh6wfTyL9krGOzLQRLEe-4" value="&lt;div&gt;+ exibirDetalhe(): void&lt;/div&gt;&lt;div&gt;+ emprestaLivro(): void&lt;/div&gt;&lt;div&gt;+ consuultaDisponibilidade(): void&lt;/div&gt;&lt;div&gt;+ removerLivro(): void&lt;/div&gt;&lt;div&gt;+ removerEmprestimo(): void&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vh6wfTyL9krGOzLQRLEe-1">
+          <mxGeometry y="128" width="220" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
